@@ -3,7 +3,7 @@ import github from "next-auth/providers/github"
 
 export const config: NextAuthConfig = {
     providers: [github({
-        clientId: process.env.AUTRH_GITHUB_ID,
+        clientId: process.env.AUTH_GITHUB_ID,
         clientSecret: process.env.AUTH_GITHUB_SECRET
     })],
     // apiのパス、ルーティング
