@@ -1,3 +1,16 @@
+```bash
+docker-compose up -d
+docker exec -it auth-app bash
+npm i
+```
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
